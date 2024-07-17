@@ -1,0 +1,9 @@
+1,KFC,4.3,$$$,98531,Chicken,Fast Food,Family Meals
+2,IHOP,4.3,$$,77494,Breakfast and Brunch,Family Meals,Burgers
+3,Starbucks,4.9,$,99218,Coffee and Tea,Breakfast and Brunch,Bakery
+4,McDonalds,4.7,$,98346,Burgers,Fast Food
+9,Pranto,6.7,$$,1200,Fast Food,Bakery
+99,Food Fair,3.0,$,1200,fast food
+12,Vojon,6.0,$,1000,Fast Food,Brunch
+990,Hello,5.0,$,1200,fast food
+201,Hello restaurant,4.4,$$,1200,Fast Food,Family Meals

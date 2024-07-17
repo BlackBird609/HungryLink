@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane prefHeight="625.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.FoodSectionController">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="877.0" pickOnBounds="true">
+         <image>
+            <Image url="@pictures/209873.jpg" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="buttonShowList" layoutX="271.0" layoutY="23.0" mnemonicParsing="false" onAction="#OnActionShowList" text="Show List" />
+      <AnchorPane fx:id="FoodListShowingAnchorPane" layoutX="424.0" prefHeight="627.0" prefWidth="453.0">
+         <children>
+            <StackPane fx:id="foodListShowingStackPane" layoutX="2.0" layoutY="17.0" prefHeight="592.0" prefWidth="413.0" />
+         </children></AnchorPane>
+      <Button fx:id="buttonAddFood" layoutX="149.0" layoutY="23.0" mnemonicParsing="false" onAction="#OnActionAddFood" text="Add Food" />
+      <Button fx:id="buttonHome" layoutX="41.0" layoutY="22.0" mnemonicParsing="false" onAction="#OnACtionHomeButton" text="Home" />
+      <AnchorPane fx:id="anchorPaneAddFood" layoutX="41.0" layoutY="121.0" prefHeight="324.0" prefWidth="270.0" />
+   </children>
+</AnchorPane>
